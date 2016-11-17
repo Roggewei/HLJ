@@ -1,0 +1,15 @@
+/*基础功能*/
+//根据id或者class隐藏元素
+var hide = function(param){
+	 document.getElementById(param).style.display="none";
+}
+
+//根据id或者class显示元素
+var show = function(param){
+	document.getElementById(param).style.display="block";
+}
+
+//删除全部class名为className对象的className
+var removeClass = function(obj,className){
+	obj.addClass(className).siblings().removeClass(ClassName);
+}
